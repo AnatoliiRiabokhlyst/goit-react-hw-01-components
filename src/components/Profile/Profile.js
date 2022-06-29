@@ -31,11 +31,10 @@ const Profile = ({ username, tag, location, avatar, stats}) => {
 </div>)
 }
 Profile.propTypes = {
-    const {followers, views, likes} = stats;
     username: PropTypes.string,
     tag: PropTypes.string,
     location: PropTypes.string,
     avatar: PropTypes.string,
-    
+    stats: PropTypes.object
 }
 export default Profile;

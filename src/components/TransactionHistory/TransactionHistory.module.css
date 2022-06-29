@@ -1,0 +1,20 @@
+
+.transaction_history{
+    width: 50vw;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: rgba(128, 128, 128, 0.215);
+    }
+    .transaction_history th, .transaction_history td{
+        border: 1px solid rgb(141, 138, 138);
+        padding: 5px;
+    }
+    .transaction_history thead{
+        background-color: aqua;
+    }
+    .transaction_history tr:nth-child(2n){
+    background-color: #ccc;
+    }
+    .transaction_history tr{
+        text-align: center;
+    }
